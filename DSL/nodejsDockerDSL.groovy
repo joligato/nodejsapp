@@ -20,6 +20,7 @@ job('Aplicacion Node.js Docker DSL') {
             forcePull(false)
             createFingerprints(false)
             skipDecorate()
+            forceTag(false)
         }
     }
 }
